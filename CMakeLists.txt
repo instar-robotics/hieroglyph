@@ -58,6 +58,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
    FILES
    Help.srv
+   Cmd.srv
+   Weight.srv
  )
 
 ## Generate actions in the 'action' folder
