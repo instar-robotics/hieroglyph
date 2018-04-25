@@ -51,7 +51,6 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    OscilloData.msg
-   OscilloUuid.msg
    OscilloArray.msg
 )
 
@@ -59,11 +58,12 @@ add_message_files(
 add_service_files(
    FILES
    Help.srv
-   Cmd.srv
+   Control.srv
    Weight.srv
    RtStat.srv
    Oscillo.srv
    Output.srv
+   Objects.srv
  )
 
 ## Generate actions in the 'action' folder

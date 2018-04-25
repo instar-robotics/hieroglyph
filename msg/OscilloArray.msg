@@ -1,1 +1,1 @@
-OscilloUuid[] oscillos
+OscilloData[] array
