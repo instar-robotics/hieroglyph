@@ -1,0 +1,4 @@
+string cmd
+string[] args
+---
+string ret

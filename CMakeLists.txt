@@ -58,12 +58,10 @@ add_message_files(
 add_service_files(
    FILES
    Help.srv
-   Control.srv
-   Weight.srv
    RtStat.srv
-   Oscillo.srv
-   Output.srv
-   Objects.srv
+   SimpleCmd.srv
+   ArgCmd.srv
+   ArgsCmd.srv
  )
 
 ## Generate actions in the 'action' folder
