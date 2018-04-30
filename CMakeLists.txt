@@ -62,6 +62,7 @@ add_service_files(
    SimpleCmd.srv
    ArgCmd.srv
    ArgsCmd.srv
+   Objects.srv
  )
 
 ## Generate actions in the 'action' folder
