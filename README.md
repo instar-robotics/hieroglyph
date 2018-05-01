@@ -29,7 +29,7 @@
 * For the next step, we assume you have a catkin\_workspace (home/johndoe/catkin\_workspace/src/hieroglyph)
 
 
-### Install Kheops ###
+### Install Hieroglyph ###
 * clone the repository in your catkin workspace :
 
 **_cd /home/johndoe/catkin_workspace/src_**
