@@ -72,7 +72,6 @@ catkin_package(
    CATKIN_DEPENDS message_generation
 #  INCLUDE_DIRS include
 #  LIBRARIES hieroglyph
-#  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
 
