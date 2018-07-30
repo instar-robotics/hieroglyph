@@ -108,7 +108,7 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#   CATKIN_DEPENDS message_runtime
+   CATKIN_DEPENDS std_msgs
 #  INCLUDE_DIRS include
 #  LIBRARIES hieroglyph
 #  CATKIN_DEPENDS other_catkin_pkg
@@ -121,10 +121,10 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(
+#include_directories(
 # include
 # ${catkin_INCLUDE_DIRS}
-)
+#)
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
