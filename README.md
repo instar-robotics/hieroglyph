@@ -9,19 +9,19 @@
 ### Dependancy ###
 
 * cmake 3.5
-* ROS Lunar
+* ROS Lunar or Melodic
 
 ### Install dependancies ###
-* On ubuntu 16.04 : 
+* On ubuntu 16.04 or 18.04 : 
 
 **_apt-get update_**
 
 **_apt-get install cmake_**
 
-* For __ROS Lunar__ installation, please refer to : http://wiki.ros.org/lunar/Installation/Ubuntu
-* For __ROS Lunar__ workspace configuration, please refer to : http://wiki.ros.org/lunar/Installation/Ubuntu
+* For __ROS Lunar__ installation and workspace configuration, please refer to : http://wiki.ros.org/lunar/Installation/Ubuntu
+* For __ROS Melodic__ installation and workspace configuration, please refer to : http://wiki.ros.org/melodic/Installation/Ubuntu
 
-* For the next section, we admit you have install __ROS Lunar__ and configure a workspace using catkin_make
+* For the next section, we admit you have install __ROS Lunar__ or __ROS Melodic__ and configure a workspace using catkin_make
 * The workspace directory will be :
 
 **_/home/johndoe/catkin_workspace_**
@@ -34,7 +34,7 @@
 
 **_cd /home/johndoe/catkin_workspace/src_**
 
-**_git clone git@git.instar-robotics.com:software/NeuralNetwork/hieroglyph.git_**
+**_git clone https://github.com/instar-robotics/hieroglyph.git_**
 
 * go to your root catkin workspace :
 
@@ -42,5 +42,5 @@
 
 * And run **_catkin_make_**
 
-* You can now install __kheops__, see https://git.instar-robotics.com/software/NeuralNetwork/kheops/blob/master/README.md
+* You can now install __kheops__, see https://github.com/instar-robotics/kheops
 
