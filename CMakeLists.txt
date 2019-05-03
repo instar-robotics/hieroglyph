@@ -20,9 +20,13 @@
 cmake_minimum_required(VERSION 3.5.1)
 project(hieroglyph)
 
-find_package(catkin REQUIRED COMPONENTS
+set(CATKIN_DEP
+  std_msgs
   message_generation
+  genmsg
 )
+
+find_package(catkin REQUIRED COMPONENTS ${CATKIN_DEP})
 
 ################################################
 ## Declare ROS messages, services and actions ##
@@ -56,6 +60,7 @@ add_service_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
    DEPENDENCIES
+   std_msgs
 )
 
 ################################################
@@ -88,7 +93,7 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-   CATKIN_DEPENDS message_generation
+   CATKIN_DEPENDS ${CATKIN_DEP}
 #  INCLUDE_DIRS include
 #  LIBRARIES hieroglyph
 #  DEPENDS system_lib
