@@ -11,4 +11,4 @@
 
 Please see [Papyrus's how-to-install](https://github.com/instar-robotics/papyrus/blob/master/README.org#how-to-install) tutorial for a Kheops/Papyrus full installation.
 
-or see [Kheops's standalon-install] tutorial for a Kheops standalone installation
+or see [Kheops's standalone-install] tutorial for a Kheops standalone installation
