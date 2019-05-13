@@ -5,7 +5,7 @@
 ## I Description ##
 
 * hieroglyph is a part of the Kheops/Papyrus software.
-* hieroglyph contains the description of the interface for [Kheops](https://github.com/instar-robotics/kheops) and [Papyrus](https://github.com/instar-robotics/papyrus).
+* hieroglyph contains the description of the interfaces for the neural network simualtor [Kheops](https://github.com/instar-robotics/kheops) and the [Papyrus](https://github.com/instar-robotics/papyrus) GUI.
 
 ## II- Installation ##
 
