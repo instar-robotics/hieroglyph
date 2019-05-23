@@ -37,6 +37,8 @@ add_message_files(
    FILES
    OscilloData.msg
    OscilloArray.msg
+   JointPos.msg
+   JointVel.msg
 )
 
 ## Generate services in the 'srv' folder
