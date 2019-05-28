@@ -22,6 +22,7 @@ project(hieroglyph)
 
 set(CATKIN_DEP
   std_msgs
+  sensor_msgs
   message_generation
   genmsg
 )
@@ -39,6 +40,7 @@ add_message_files(
    OscilloArray.msg
    JointPos.msg
    JointVel.msg
+   ObjDetect.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -63,6 +65,7 @@ add_service_files(
 generate_messages(
    DEPENDENCIES
    std_msgs
+   sensor_msgs
 )
 
 ################################################
