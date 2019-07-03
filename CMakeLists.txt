@@ -36,6 +36,7 @@ find_package(catkin REQUIRED COMPONENTS ${CATKIN_DEP})
 ## Generate messages in the 'msg' folder
 add_message_files(
    FILES
+   RtToken.msg
    OscilloData.msg
    OscilloArray.msg
    JointPos.msg
