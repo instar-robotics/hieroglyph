@@ -42,6 +42,8 @@ add_message_files(
    JointPos.msg
    JointVel.msg
    ObjDetect.msg
+   Particle.msg
+   MultiParticles.msg
 )
 
 ## Generate services in the 'srv' folder
