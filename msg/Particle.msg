@@ -1,3 +1,3 @@
 string uuid
-geometry_msgs/Point point
+geometry_msgs/PointStamped point
 float64 activity
