@@ -1,3 +1,5 @@
 string uuid
-geometry_msgs/PointStamped point
+Target target
 float64 activity
+string model_id
+KeyValue[] values
