@@ -44,7 +44,6 @@ add_message_files(
    ObjDetect.msg
    Particle.msg
    MultiParticles.msg
-   Target.msg
    Attractor.msg
    KeyValue.msg
 )
