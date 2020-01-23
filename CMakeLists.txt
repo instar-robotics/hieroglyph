@@ -46,6 +46,8 @@ add_message_files(
    MultiParticles.msg
    Attractor.msg
    KeyValue.msg
+   Line.msg
+   MultiLines.msg
 )
 
 ## Generate services in the 'srv' folder
