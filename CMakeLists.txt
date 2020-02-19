@@ -48,6 +48,8 @@ add_message_files(
    KeyValue.msg
    Line.msg
    MultiLines.msg
+   Dissonance.msg
+   MultiDissonances.msg
 )
 
 ## Generate services in the 'srv' folder
